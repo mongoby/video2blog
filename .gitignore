@@ -1,0 +1,15 @@
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.env
+backend/.env
+# Exclude specific env files, NOT .env.example (needs to be committed)
+backend/.env.production
+backend/.env.staging
+*.egg-info/
+dist/
+build/
+jobs/
+.DS_Store
+*.swp
